@@ -1,38 +1,39 @@
-# Project-work1
-#   Hybrid Cryptographic Steganography for Secure  Data Transmission
+# Hybrid Cryptographic Steganography for Secure  Data Transmission
    This project delivers a dual-layer security solution by combining strong cryptographic encryption with invisible image-based steganography, ensuring confidential, tamper-proof, and undetectable data transmission over open networks
 
 ## About:
+
 This project focuses on developing a secure and intelligent system for confidential data transmission by integrating cryptography and steganography into a single hybrid framework. The system first encrypts sensitive text data using the Fernet authenticated encryption scheme, which combines AES-128 encryption with HMAC-SHA256 to ensure confidentiality and integrity. The encrypted data is then invisibly embedded into digital images using the Least Significant Bit (LSB) steganography technique, making the presence of secret communication undetectable to unauthorized users.
 
 The project emphasizes high security, data integrity, and imperceptibility while maintaining image quality, validated using Peak Signal-to-Noise Ratio (PSNR) analysis. A user-friendly Streamlit-based interface enables easy embedding, extraction, encryption, and decryption without requiring advanced technical knowledge. This hybrid approach provides a practical, reliable, and efficient solution for secure communication, suitable for applications such as defense communication, cloud data protection, digital watermarking, and confidential information exchange.
 
 ## Features:
-Dual-layer security combining encryption and steganography
 
-Strong Fernet encryption (AES-128 with HMAC-SHA256) for data integrity
+1) Dual-layer security combining encryption and steganography
 
-Invisible LSB-based image embedding with minimal visual distortion
+2) Strong Fernet encryption (AES-128 with HMAC-SHA256) for data integrity
 
-High image quality maintained and verified using PSNR analysis
+3) Invisible LSB-based image embedding with minimal visual distortion
 
-Tamper-proof data extraction with accurate message recovery
+4) High image quality maintained and verified using PSNR analysis
 
-Simple and user-friendly Streamlit interface for secure communication
+5) Tamper-proof data extraction with accurate message recovery
+
+6) Simple and user-friendly Streamlit interface for secure communication
 
 ## Requirements:
 
-Operating System: Requires a 64-bit OS such as Windows 10/11 or Ubuntu Linux to ensure compatibility with Python libraries, cryptographic modules, and image processing frameworks.
+**Operating System:** Requires a 64-bit OS such as Windows 10/11 or Ubuntu Linux to ensure compatibility with Python libraries, cryptographic modules, and image processing frameworks.
 
-Development Environment: Python 3.10 or later is required for implementing the cryptographic, steganographic, and user interface modules.
+**Development Environment:** Python 3.10 or later is required for implementing the cryptographic, steganographic, and user interface modules.
 
-Cryptographic Frameworks: Cryptography library (Fernet) is essential for implementing AES-128 encryption with HMAC-SHA256 based authenticated security.
+**Cryptographic Frameworks:** Cryptography library (Fernet) is essential for implementing AES-128 encryption with HMAC-SHA256 based authenticated security.
 
-Image Processing Libraries: Pillow and NumPy are required for image handling, pixel-level manipulation, and LSB-based data embedding and extraction.
+**Image Processing Libraries:** Pillow and NumPy are required for image handling, pixel-level manipulation, and LSB-based data embedding and extraction.
 
-Web Interface Framework: Streamlit is used to develop a simple, interactive, and user-friendly web-based interface for secure data hiding and retrieval.
+**Web Interface Framework:** Streamlit is used to develop a simple, interactive, and user-friendly web-based interface for secure data hiding and retrieval.
 
-IDE & Tools: Visual Studio Code or any compatible Python IDE is recommended for coding, debugging, and project management.
+**IDE & Tools:** Visual Studio Code or any compatible Python IDE is recommended for coding, debugging, and project management.
 
 ## System Architecture:
 
